@@ -11,3 +11,4 @@
 
 ## todo
 * change rust web server backend to actix (not trunk) and figure out nginx reverse proxy
+* make server version a fork of this repo
