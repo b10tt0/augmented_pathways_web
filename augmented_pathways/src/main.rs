@@ -211,6 +211,11 @@ impl Component for App {
                     <li class="header">
                         <button href="" onclick={link.callback(|_| Msg::Team)}>{ "Team" }</button>
                     </li>
+                    <li class="header">
+                        <button href="" onclick={link.callback(|_| Msg::Home)}>
+                            { "Home "}
+                        </button>
+                    </li>
                 </ul>
             </div>
         };
