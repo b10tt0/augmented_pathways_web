@@ -6,7 +6,7 @@ html {
 /* SETUP FOR BACKGROUND */
 body { 
 	text-align: center;
-	background: url(media/ar_background.png) no-repeat center center fixed;
+	background: url(./media/ar_background.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -209,7 +209,7 @@ img#pot {
 
 /* display the page contents */
 .home {
-	background: url(media/ar_background.png) no-repeat center center fixed;
+	background: url(./media/ar_background.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

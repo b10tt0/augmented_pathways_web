@@ -13,7 +13,9 @@ const MODELS: [&str; 11] = [
     "mushroom.png",
     "sturgeon.png",
 ];
-const PATH: &str = "./media/graphics/";
+// old path
+// const PATH: &str = "./media/graphics/";
+const PATH: &str = "./augmented-paths/media/";
 const OFFSET: u8 = 0;
 const SIZE: u8 = 9;
 
@@ -200,7 +202,7 @@ impl Component for App {
                 <ul class="header">
                 <li class="header" id="logo">
                 <a href="https://eh.bard.edu" target="_#">
-                <img src="./media/logo.png" height="60"/>
+                <img src="./augmented-paths/media/logo.png" height="60"/>
                 </a>
                 </li>
                 <li class="header"><button onclick={link.callback(|_| Msg::About)}>{ "About" }</button></li>
